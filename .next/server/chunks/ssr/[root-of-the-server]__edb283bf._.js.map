@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/herna/mi-chess/app/page.tsx"],"sourcesContent":["import dynamic from \"next/dynamic\";\r\n\r\nconst ChessBoardClient = dynamic(() => import(\"./ChessBoardClient\"), { ssr: false });\r\n\r\nexport default function Page() {\r\n  return (\r\n    <div style={{ display: \"flex\", flexDirection: \"column\", alignItems: \"center\" }}>\r\n      <h1 style={{ marginTop: 20, fontSize: 28 }}>♟️ Mi Chess Online</h1>\r\n      <ChessBoardClient />\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;;AAEA,MAAM,mBAAmB,IAAA,0KAAO,EAAC;;;;;;IAAsC,KAAK;;AAE7D,SAAS;IACtB,qBACE,8OAAC;QAAI,OAAO;YAAE,SAAS;YAAQ,eAAe;YAAU,YAAY;QAAS;;0BAC3E,8OAAC;gBAAG,OAAO;oBAAE,WAAW;oBAAI,UAAU;gBAAG;0BAAG;;;;;;0BAC5C,8OAAC;;;;;;;;;;;AAGP","debugId":null}}]
+}
